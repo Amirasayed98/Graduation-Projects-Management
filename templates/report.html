@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>project name</title>
+    
+<link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename = 'css/project_name.css')}}" rel="stylesheet">
+
+    
+    
+</head>
+<body>
+
+<nav class="navbar ">
+      <div class=" nav-down">
+      <!-- logo -->
+      <div class="container-fluid row">
+          <a class="navbar-brand  col-lg-4 offset-lg-0 col-sm-12 offset-sm-6" >
+              <img src="{{url_for('static', filename="image/orange-logo.png")}}"  class="my-logo d-inline-block align-top" alt="my-logo">
+            </a>
+      
+      <!-- links -->
+           
+      </div>
+    </div>
+    </nav>
+    <!-- data -->
+
+
+    <div class="container require_head">
+    <div class="modal-dialog modal-dialog-scrollable" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalScrollableTitle">REPORT</h5>
+        </div>
+        <div class="modal-body">
+            <pre>
+            {{ content }}
+            </pre>
+        </div>
+        <div class="modal-footer">
+
+            <a href="{{ url_for('.download_report') }}" download="pdf">
+         <button type="button" class="btn more" >Download</button>
+         </a>
+
+
+        </div>
+      </div>
+    </div>
+</div>
+
+
+
+
+<script src="{{url_for('static', filename="js/jquery-3.4.1.min.js") }}"></script>
+<script src="{{url_for('static', filename="js/popper.min.js")}}"></script>
+<script src="{{url_for('static', filename="js/bootstrap.min.js")}}"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Filter&Result</title>
+    
+
+     <link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename = 'css/project_name.css')}}" rel="stylesheet">
+
+    
+    
+    
+</head>
+<body>
+<form action="http://127.0.0.1:5000/check2" method="POST" >
+<nav class="navbar ">
+      <div class=" nav-down">
+      <!-- logo -->
+      <div class="container-fluid row">
+          <a class="navbar-brand  col-lg-4 offset-lg-0 col-sm-12 offset-sm-6" >
+
+              <img src="{{url_for('static', filename="image/orange-logo.png")}}"  class="my-logo d-inline-block align-top" alt="my-logo">
+              <button type="submit" name="check2" class="btn  shadow-lg check-plagiarism" > Check Plagiarism </button>
+            </a>
+
+
+      <!-- links -->
+           
+      </div>
+    </div>
+    </nav>
+</form>
+    <!-- filter-->
+
+    <!-- c222 -->
+     <form action="http://127.0.0.1:5000/result" method="POST" >
+   <div class="container input-group mt-3 mb-3">
+    <div class="form-group ">
+      <label for="exampleFormControlSelect1" class="label-12">Year</label>
+      <select class="form-control dropbtn" name="year" id="exampleFormControlSelect1" required>
+          <option selected  disabled selected value> __Choose Year__</option>
+                <option value="2010" >2010</option>
+                <option value="2011" >2011</option>
+                <option value="2012">2012</option>
+                <option value="2013">2013</option>
+                <option value="2014">2014</option>
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+                <option value="2018">2018</option>
+                <option value="2019">2019</option>
+                <option value="2020">2020</option>
+      </select>
+    </div>
+    <div class="form-group ">
+      <label for="exampleFormControlSelect1" class="label-12">Department</label>
+      <select class="form-control dropbtn" name="department" id="exampleFormControlSelect1" required>
+          <option selected disabled selected value>__Choose Department__</option>
+        <option>Computer Science</option>
+        <option>Information System</option>
+        <option>Scientific Computing</option>
+
+      </select>
+    </div>
+
+    <div class="input-group-append">
+      <button type="submit" class="btn btn-outline-secondary search " >
+          Search
+      </button>
+      </div>
+  </div>
+    </form>
+
+  <!-- card
+    <div class="container shadow-lg cont">
+      <div class="container-fluid require_head">
+          <h4 class="project">Project-Name</h4>
+          <p class="track">Cs</p>
+      </div>
+
+      <div class=" require_body">
+          <h3 class="h_body" id="tools_text"><span id="tools"> Doctor name :</span> Ahmed Taha</h3>
+          
+      </div>
+
+      <div class="container-fluid require_head">
+          <a href="#" class="btn btn-primary shadow-lg more">MORE</a>
+      </div>
+      
+      
+  </div>
+   -->
+<form action="http://127.0.0.1:5000/more" method="POST" >
+   <div class="container">
+
+    <div class="row">
+
+        <div class="col md-12">
+
+
+
+            <h2>Result... </h2>
+
+
+
+
+            <table class="table ">
+
+
+                <tr class="tr-head">
+              <th>Project Name</th>
+              <th>Project ID</th>
+              <th>Doctor Name</th>
+              <th>Department</th>
+              <th>More Information</th>
+
+                {%  for row in projects %}
+                 </tr>
+                <tr class="tr-body">
+                    <td>{{row.0}}</td>
+                    <td>{{row.2}}</td>
+                    <td>{{row.3}}</td>
+                    <td>{{row.5}}</td>
+                    <td>
+                        <button   value="{{row.2}}" name="more" type="submit" class="btn  btn-xs more2" >More</button>
+
+
+                    </td>
+
+                </tr>
+
+ {% endfor %}
+
+            </table>
+
+
+
+
+        
+
+        </div>
+
+
+<!-- Modal -->
+
+
+
+
+
+
+    </div>
+
+
+</div>
+
+</form>
+  <script src="{{url_for('static', filename="js/jquery-3.4.1.min.js") }}"></script>
+  <script src="{{url_for('static', filename="js/popper.min.js")}}"></script>
+  <script src="{{url_for('static', filename="js/bootstrap.min.js")}}"></script>
+
+</body>
+</html>

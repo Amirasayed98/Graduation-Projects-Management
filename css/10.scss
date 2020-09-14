@@ -1,0 +1,281 @@
+@import url("add tracks.css");
+@import url("add new idea.css");
+
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+
+.my-profile-nav{
+
+  
+    .nav-link1 {
+        color:white;
+        
+    }
+    .nav-link3 {
+        color: rgb(170, 210, 255);
+        
+    }
+    
+    
+}
+
+.requires {
+    border: 2px solid $main_color_blue;
+    border-radius: 5px;
+    margin: 150px 0px 90px 100px;
+   
+    width: 1150px;
+    height: auto;
+}
+.require_head{
+
+    width: 100%;
+    height: 120px;
+    margin: 0px 50px 0px 0px;
+    border-top: solid 1px rgb(141, 140, 140);
+    border-bottom: solid 1px rgb(141, 140, 140);
+   
+}
+.require_head h4 {
+    margin-left: 30px;
+     line-height: 4em;
+     color: rgb(92, 92, 92);
+     font-size: 30px;
+ }
+ .require_body{
+    margin: 40px 40px 43px 40px;
+   
+}
+.tracks,.ideas{
+    margin-left: 0px;
+     line-height: 4em;
+     color: rgb(158, 156, 156);
+     font-size: 33px;
+     display: inline-block;
+     font-weight: normal;
+ }
+ .add_tracks{
+    display: inline-block;
+    color: $main_color_blue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 570px;
+    &:hover{
+        color:  rgb(92, 92, 92);
+        text-decoration: none;
+        .fa-plus-circle{
+                color:  rgb(92, 92, 92);
+            }
+    }
+    
+}
+.fa-plus-circle{
+    color: $main_color_blue;
+    &:hover{
+        color:  rgb(92, 92, 92);
+    }
+}
+
+#list_track li{
+    text-decoration: none;
+    color: grey;
+    font-weight: normal;
+    font-size: 33px;
+   
+    
+}
+#list_remove li a{
+    color: rgb(158, 156, 156) ;
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+}
+#list_remove li a:hover{
+    color: $main_color_blue;
+}
+#list_track{
+    display: inline-block;
+    list-style: none;
+    padding-left: 0px;
+}
+#list_remove{
+    display: inline-block;
+    list-style: none;
+}
+.container{
+    margin-left: 120px;
+    margin-bottom: 60px;
+}
+.ideas{
+    text-shadow:0px 3px rgb(221, 216, 216);
+}
+.add_idea{
+    display: inline-block;
+    color: $main_color_blue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 640px;
+    &:hover{
+        color:  rgb(92, 92, 92);
+        text-decoration: none;
+        .fa-plus-circle{
+                color:  rgb(92, 92, 92);
+            }
+    }
+    
+}
+hr{
+    margin-bottom: 40px;
+    color: black;
+}
+.des_edit {
+    border: 2px solid $main_color_blue;
+    border-radius: 5px;
+    margin: 80px 0px 20px 100px;
+   
+    width: 1150px;
+    height: auto;
+}
+.desc{
+    color: rgb(44, 43, 43);
+    margin-top: 30px;
+    font-size: 33px;
+    
+}
+.edit{
+    border: solid 2px $main_color_blue;
+    color: $main_color_blue;
+    margin-left: 950px;
+    margin-top: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+}
+.edit:hover{
+    color: $main-color-orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+    background-color: $main_color_blue;
+    border: solid 2px $main_color_blue;
+}
+
+a{
+    cursor: pointer;
+}
+a:hover{
+    color: $main_color_blue;
+}
+
+@media(max-width:992px){
+    .requires{
+        width: 710px;
+        margin-left: 50px;
+    }
+    .add_tracks{
+        margin-left:128px ;
+    }
+    .ideas{
+        margin-left: -48px;
+    }
+    .add_idea{
+        margin-left: 155px;
+    }
+    .des_edit{
+        margin-left: 50px;
+        width: 710px;
+    }
+    .desc{
+        font-size: 32px;
+    }
+    .edit{
+        margin-left: 510px;
+    }
+  }
+
+  @media(max-width:768px){
+    .requires,.des_edit{
+        width: 500px;
+    }
+    .add_tracks{
+        margin-left:88px ;
+    }
+    .tracks{
+       
+        margin-left: 90px;
+    }
+    .cont_ideas{
+        height: 50px;
+        margin-left: 80px;
+    }
+    .add_idea{
+        margin-left: 130px;
+        display: inline-block;
+    }
+    .ideas{
+        margin-left: 130px;
+        
+    }
+    .edit{
+        margin-left: 150px;
+    }
+    hr{
+        margin-left: 0px;
+    }
+    .desc{
+        text-align: center;
+    }
+  }
+
+  @media(max-width:576px){
+    .requires,.des_edit{
+        width: 300px;
+    } 
+    .require_head h4 {
+        margin-left: 10px;
+         line-height: 4em;
+         font-size: 20px;
+    }
+    .require_head{
+        height: 90px;
+    }
+    .require_body{
+        margin-left: 23px;
+       
+    }
+    .tracks {
+        font-size: 20px;
+        margin-left: 0px;
+        text-align: center;
+
+    }
+    .add_tracks{
+        margin-left: 18px;
+        font-size: 25px;
+    }
+    #list_track{
+        padding-left: 5px;
+    }
+    .edit{
+        margin-left: 65px;
+    }
+    .desc{
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    .ideas{
+        margin-left: 40px;
+    }
+    .add_idea{
+        margin-left: 37px;
+    }
+    .cont_ideas{
+        margin-left: 80px;
+    }
+    hr{
+        width: 310px;
+        margin-left: 0px;
+    }
+  }

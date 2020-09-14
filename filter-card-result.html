@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Admin Filter&Result</title>
+    
+
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/project_name.css"/>
+
+    
+    
+    
+</head>
+<body>
+
+<nav class="navbar ">
+      <div class=" nav-down">
+      <!-- logo -->
+      <div class="container-fluid row">
+          <a class="navbar-brand  col-lg-4 offset-lg-0 col-sm-12 offset-sm-6" href="Home.html">
+              <img src="image/orange-logo.png"  class="my-logo d-inline-block align-top" alt="my-logo">
+            </a>
+      
+      <!-- links -->
+           
+      </div>
+    </div>
+    </nav>
+
+    <!-- filter-->
+
+    <!-- c222 -->
+    <div class="container input-group mt-3 mb-3">
+    <div class="form-group ">
+      <label for="exampleFormControlSelect1" class="label-12">Doctor Name</label>
+      <select class="form-control dropbtn" id="exampleFormControlSelect1">
+          <option selected>Choose Doctor Name...</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+        <option>DR/ Ahmed Taha</option>
+      </select>
+    </div>
+    <div class="form-group ">
+      <label for="exampleFormControlSelect1" class="label-12">Department</label>
+      <select class="form-control dropbtn" id="exampleFormControlSelect1">
+          <option selected>Choose Department...</option>
+        <option>CS</option>
+        <option>IS</option>
+        <option>SC</option>
+      
+      </select>
+    </div>
+
+    <div class="input-group-append">
+      <button type="button" class="btn btn-outline-secondary search " >
+          Search
+      </button>
+      </div>
+  </div>
+
+  <!-- card
+    <div class="container shadow-lg cont">
+      <div class="container-fluid require_head">
+          <h4 class="project">Project-Name</h4>
+          <p class="track">Cs</p>
+      </div>
+
+      <div class=" require_body">
+          <h3 class="h_body" id="tools_text"><span id="tools"> Doctor name :</span> Ahmed Taha</h3>
+          
+      </div>
+
+      <div class="container-fluid require_head">
+          <a href="#" class="btn btn-primary shadow-lg more">MORE</a>
+      </div>
+      
+      
+  </div>
+   -->
+
+   <div class="container">
+
+    <div class="row">
+
+        <div class="col md-12">
+
+
+
+            <h2>Result... </h2>
+
+
+
+
+            <table class="table ">
+
+
+                <tr class="tr-head">
+              <th>Project Name</th>
+              <th>Project ID</th>
+              <th>Doctor Name</th>
+              <th>Department</th>
+              <th>More Information</th>
+
+
+          </tr>
+
+
+
+
+
+                <tr class="tr-body">
+                    <td>{{row.0}}</td>
+                    <td>{{row.1}}</td>
+                    <td>{{row.2}}</td>
+                    <td>{{row.3}}</td>
+                    <td>
+
+
+             <!--  <a href="/update/{{row.0}}" class="btn btn-warning btn-xs" data-toggle="modal" data-target="#modaledit{{row.0}}">Edit</a> -->
+                <a href="filter-card-more.html" class="btn  btn-xs more2" onclick=""> MORE </a>
+
+                    </td>
+
+                </tr>
+                
+
+        
+
+
+                
+
+
+
+            </table>
+
+
+          
+
+        
+
+        </div>
+
+
+<!-- Modal -->
+
+
+
+
+
+
+    </div>
+
+
+</div>
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

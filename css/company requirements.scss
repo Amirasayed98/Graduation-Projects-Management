@@ -1,0 +1,110 @@
+@import url("style.css");
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+.container{
+    margin:0px 0px 100px 100px;
+}
+.title{
+    color: rgb(158, 156, 156);
+    font-size: 35px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.cont {
+    border: 2px solid $main_color_blue;
+    border-radius: 5px;
+    margin: 80px 0px 0px 0px;
+   
+    width: 1150px;
+    height: auto;
+}
+
+.company{
+    font-size: 40px;
+    font-weight:400;
+    margin-top: 20px;
+}
+.city{
+    color: rgb(158, 156, 156);
+    font-size: 20px; 
+}
+.require_body{
+    margin-left: 13px;
+}
+.h_body{
+    color: rgb(41, 40, 40);
+    font-size: 28px;
+    font-weight: 350;
+}
+.par{
+    font-size: 28px;
+    font-weight: 450;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+
+.btn-m1{
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    margin: 20px 0px 20px 910px;
+    background-color: white;
+    border:solid 3px $main_color_blue ;
+    color: $main_color_blue;
+    line-height: 2em;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+}
+.btn-m1:hover{
+    color: $main-color-orange;
+    background-color: $main_color_blue;
+    border:solid 3px $main_color_blue ;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+}
+
+@media(max-width:992px){
+    .cont{
+        width: 1150px;
+    }
+    .btn-m1{
+        margin-left:490px ;
+    }
+  }
+
+  @media(max-width:768px){
+      .cont{
+          width: 800px;
+      }
+      .btn-m1{
+          margin-left: 340px;
+      }
+    
+  }
+
+  @media(max-width:576px){
+      .container{
+          margin-left: 40px;
+      }
+      .title{
+          font-size: 25px;
+          text-align: center;
+      }
+      .cont{
+          width: 300px;
+      }
+      .company{
+          font-size: 30px;
+      }
+      .h_body,.par{
+          font-size: 25px;
+      }
+      .btn-m1{
+          margin-left: 50px;
+      }
+    
+  }
+
+
+

@@ -1,0 +1,30 @@
+.con-body{
+   /* background-image:  url("/image/pattern.png");*/
+    
+    width: 100%;
+    height: 1800px;
+    z-index: 1000;
+}
+
+.Plag {
+    background-color: #ffdba6;
+    border: none;
+    border-radius: 0px;
+    color: #00244dd4;
+    font-family: 'Lato', sans-serif;
+    width: 75%;
+    height: 930px;
+    margin-left: 12.5%;
+    margin-top: 140px;
+    align-self: center;
+    
+
+}
+.h1-me {
+    padding: 50px 50px 10px 50px;
+}
+.Plag-font{
+    font-size: 20px;
+    color: #00244dbe;
+    margin-bottom: 50px;
+}

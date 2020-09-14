@@ -1,0 +1,9 @@
+PLAGIARISM REPORT
+Project Name: Smart Parking
+The Percentage Of Plagiarism is = 16%
+File Name: CV.pdf
+Matched with: C:/xampp/htdocs/xampp/project-version9/output\6.txt
+Date: 08/19/20
+Number of sentences quoted = 0 
+
+

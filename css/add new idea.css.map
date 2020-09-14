@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,aAAa,EAAC,WAAW,CAAA;EACrB,YAAY,EAAE,IAAI;EAClB,KAAK,EAAE,IAAI;CACd;;AACD,AAAA,YAAY,CAAC,EAAE,EAAC,UAAU,CAAC,EAAE,CAAA;EACzB,eAAe,EAAE,IAAI;EACrB,OAAO,EAAE,YAAY;EACrB,YAAY,EAAE,IAAI;EAClB,aAAa,EAAE,IAAI;EACnB,gBAAgB,EAAE,OAAkB;EACpC,aAAa,EAAE,IAAI;EACnB,OAAO,EAAE,mBAAmB;CAC/B",
+    "sources": [
+        "add new idea.scss"
+    ],
+    "names": [],
+    "file": "add new idea.css"
+}

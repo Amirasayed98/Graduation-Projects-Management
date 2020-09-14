@@ -1,0 +1,143 @@
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+form {
+    border: 2px solid $main_color_blue;
+    border-radius: 4px;
+    width: 600px;
+    margin: 100px 0px 50px 370px;
+}
+.container{
+    padding: 40px 70px 30px 70px;
+}
+
+.card-img-top{
+width: 250px;
+margin-left: 170px;
+margin-top: 30px;
+
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .note{
+    margin-left: 10px;
+    font-size: 14px;
+    color: grey;
+  }
+  
+  .city{
+    margin-right: 71px;
+}
+  .select{
+    display: inline-block;
+}
+
+  button {
+    background-color: $main_color_blue;
+    color: white;
+    padding: 14px 20px;
+    height: 40px;
+    font-size: 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 35%;
+    line-height: 0.5em;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+  }  
+
+  button:hover {
+    color: $main-color-orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+    font-weight: bold;
+  }
+  
+  .end{
+    margin: 30px 0px 50px 450px;
+  }
+  .sign{
+      margin-top: 30px;
+      a{
+        font-weight: bold;
+        font-size: 15px;
+        margin-left: 30px;
+      }
+  }
+  
+
+  @media(max-width:992px){
+    form{
+      margin-left: 150px;
+      width: 550px;
+    }
+    .city{
+      
+      margin-right: 63px;
+    }
+    button{
+      margin-bottom: 30px;
+      margin-left: 100px;
+      margin-right: 18px;
+      width: 200px;
+    }
+    .sign a{
+      text-align: center;
+      margin-left: 65px;
+    }
+  }
+  @media(max-width:768px){
+    form{
+      margin-left: 100px;
+      width: 450px;
+    }
+    .city{
+      margin-bottom: 10px;
+    }
+    button{
+      margin-bottom: 30px;
+      margin-left: 80px;
+      margin-right: 50px;
+      width: 150px;
+    }
+    .sign a{
+      text-align: center;
+      margin-left: 30px;
+    }
+    .card-img-top{
+      margin-left: 100px;
+    
+    }
+
+  }
+
+  @media(max-width:576px){
+    form{
+      margin-left: 50px;
+      width: 400px;
+    }
+    .city{
+      margin-bottom: 10px;
+    }
+    button{
+      margin-bottom: 20px;
+      margin-left: 50px;
+      width: 150px;
+    }
+    .sign a{
+      text-align: center;
+      margin-left: 15px;
+    }
+    .card-img-top{
+      margin-left: 100px;
+      width: 200px;
+    }
+  }

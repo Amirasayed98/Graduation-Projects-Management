@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,OAAO,CAAC,yBAAI;AAEZ,AAAA,YAAY,CAAA;EACR,WAAW,EAAE,IAAI;CAMpB;;AAPD,AAGG,YAHS,CAGT,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;EAClB,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "ai-cards-end results-style.scss"
+    ],
+    "names": [],
+    "file": "ai-cards-end results-style.css"
+}

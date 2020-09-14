@@ -1,0 +1,111 @@
+@import url("style.css");
+/*.carousel-item{
+    
+    transition: none ;
+    -webkit-transition-property: none;
+-moz-transition-property: none;
+-o-transition-property: none;
+transition-property: none;
+}*/
+$main-color-blue:#00244D;
+$main-color-orange:#ffbb56;
+//$main-color-orange:#ffe484;
+$nav-hight:56px;
+$margin:80px;
+.cards-contain{
+margin-left:100px ;
+margin-right:20px ;
+}
+.cards {
+   
+    margin-top: 100px;
+  
+  
+  .card {
+    width: 20rem;
+    height:  27rem;
+    display: inline-block;
+    margin: 0px 50px 60px 0px;
+    &:hover{
+        box-shadow: 0 .5rem 1rem #ffbb56a1!important; 
+        cursor: pointer;
+        border-color: #ffbb5656; 
+
+        .card-title{
+            
+                color: $main-color-orange;
+                  
+            }
+    }
+  }
+  .card-title{
+            
+    font-size: 1.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+      
+}
+  
+  .card-track {
+    display: inline-block;
+    color: gray;
+    font-size: .8rem;
+
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+
+  }
+  .card-project-name{
+    text-decoration: none;               
+    color: $main-color-blue;
+    &:hover{
+        text-decoration: none;  
+        color: $main-color-blue;
+        .card-img-top{
+          opacity: 0.5;
+        }
+    }
+  }
+  .card-Btn {
+    background-color:$main-color-blue ;
+    color: white;
+    
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+    
+    width:  8rem;
+    height: 2.8rem;
+    font-weight: bold;
+    margin-left: 5rem;
+    margin-top: 25px;
+    text-align: center;
+    padding-top: 0px;
+    line-height: 2em;
+  }
+  
+  .card-Btn:hover {
+    color: $main-color-orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+  }
+  
+  .card-text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+    font-size: 1rem;
+  }
+}
+
+
+  
+
+
+
+
+
+
+

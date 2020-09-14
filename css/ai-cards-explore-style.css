@@ -1,0 +1,92 @@
+@import url("ai-cards-end results-style.css");
+.my-profile-nav {
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 36, 77, 0.425)), to(#00244D));
+  background: linear-gradient(360deg, rgba(0, 36, 77, 0.425), #00244D);
+  top: 0px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.my-profile-nav .fa-user-alt {
+  font-size: 1.2rem;
+  color: #cecece;
+  padding-top: 0.8rem;
+  padding-right: 0.0rem;
+  padding-left: 0.0rem;
+  display: block;
+  pointer-events: none;
+  cursor: default;
+}
+
+.my-profile-nav .nav-link-my-company-name {
+  font-size: 1.2rem;
+  padding-right: 20rem;
+  color: #cecece;
+  pointer-events: none;
+  cursor: default;
+}
+
+.my-profile-nav .nav-link1 {
+  color: #aad2ff;
+  font-size: 1.04rem;
+}
+
+.my-profile-nav .nav-link1:hover {
+  color: #aad2ff;
+}
+
+.my-profile-nav .nav-link2 {
+  color: white;
+  font-size: 1.04rem;
+}
+
+.my-profile-nav .nav-link2:hover {
+  color: #aad2ff;
+}
+
+.my-profile-nav .nav-link3 {
+  color: white;
+  font-size: 1.04rem;
+}
+
+.my-profile-nav .nav-link3:hover {
+  color: #aad2ff;
+}
+
+.my-profile-nav .nav-link-my-logout {
+  padding-left: 25rem;
+  font-size: 0.95rem;
+  color: #ffbb56;
+}
+
+.my-profile-nav .nav-link-my-logout:hover {
+  color: #cecece;
+}
+
+.fa-bookmark {
+  font-size: 40px;
+  color: #00244D;
+}
+
+.card-Btn-E {
+  margin: 0px 40px 25px 95px;
+  background-color: #00244D;
+  color: white;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 36, 77, 0.075) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 36, 77, 0.075) !important;
+  width: 8rem;
+  height: 2.8rem;
+  font-weight: bold;
+  line-height: 2em;
+}
+
+.card-Btn-E:hover {
+  color: #ffbb56;
+  -webkit-box-shadow: 0 0.5rem 1rem #ffbb56a1 !important;
+          box-shadow: 0 0.5rem 1rem #ffbb56a1 !important;
+}
+
+.end_results {
+  margin-bottom: 150px;
+}
+/*# sourceMappingURL=ai-cards-explore-style.css.map */

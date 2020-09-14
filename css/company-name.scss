@@ -1,0 +1,107 @@
+@import url("style.css");
+@import url("project.css");
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+
+.my-profile-nav{
+
+  
+    .nav-link1 {
+        color:white;
+        
+    }
+    
+}
+.container-fluid{
+    padding: 0px 0px 0px 0px;
+}
+.description{
+    display: inline-block;
+    margin: 150px 60px 100px 50px;
+}
+.project-name{
+    margin-bottom: 30px;
+}
+.card-track{
+    display: inline-block;
+    margin-bottom: 30px;
+    color: gray;
+    margin-right: 10px;
+}
+
+.right{
+    display: inline-block;
+    top: 250px;
+    margin-top: auto;
+}
+.img{
+    width: 600px;
+    height: 400px;
+    margin-top: 0px;
+    
+}
+.contact-now{
+    background-color: rgb(241, 235, 235);
+    width: 600px;
+    height: 120px;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 35px;
+}
+.email{
+    width: 600px;
+    height: 300px;
+    text-align: center;
+    padding-top: 110px;
+    margin-bottom: 300px;
+    border: 3px solid rgb(211, 206, 206);
+    
+}
+.team{
+    text-align: center;
+    margin: 30px 0px 30px 30px;
+}
+
+.join{
+    text-align: center;
+    margin-left: 50px;
+}
+
+@media(max-width:768px){
+    .img,.contact-now,.email{
+        margin-left: 50px;
+        width: 470px;
+    }
+    .contact-now{
+        padding-top: 10px;
+    }
+    .right{
+        top: 0px;
+    }
+}
+@media(max-width:576px){
+    .description{
+        margin-bottom: 0px;
+        margin-left: 50px;
+        
+    }
+    .right{
+        top: 50px;
+    }
+    .img{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .contact-now,.email{
+        width: 400px;
+        margin-left: 50px;
+    }
+    .contact-now{
+        padding-top: 10px;
+    }
+}
+
+
+
+

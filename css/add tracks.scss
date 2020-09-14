@@ -1,0 +1,37 @@
+$main_color_blue:#00244D;
+$main_color_orange:#ffbb56;
+
+.input-icon i{
+    position: absolute; 
+}
+.fa-search{
+    margin: 10px 10px 10px 10px;
+   
+}
+.input{
+    padding-left: 32px;
+    width: 100%;
+}
+.list li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(201, 196, 196);
+    border-radius: 20px;
+    padding: 10px 15px 10px 15px;
+}
+.add{
+    background-color: $main_color_blue;
+    color: white;
+    width: 100px;
+    font-weight: bold;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+}
+.add:hover{
+    color: $main-color-orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+}
+.short{
+    margin: 10px 0px 0px 10px;
+}

@@ -1,0 +1,87 @@
+@import url("ai-cards-end results-style.css");
+$main_color_blue:#00244D;
+$main_color_orange:#ffbb56;
+
+.my-profile-nav{
+
+    //background-color:rgba(0, 36, 77, 0.671) ;  
+    background: linear-gradient(360deg , rgba(0, 36, 77, 0.425), #00244D);
+    top: 0px;
+    position: sticky;
+    .fa-user-alt{
+        font-size: 1.2rem;
+        color: rgb(206, 206, 206); 
+        padding-top: 0.8rem; 
+        padding-right: 0.0rem; 
+        padding-left: 0.0rem; 
+        display: block;
+        pointer-events: none;
+        cursor: default;
+    }
+    .nav-link-my-company-name{
+        font-size: 1.2rem;
+        padding-right: 20rem;
+        color: rgb(206, 206, 206);
+        pointer-events: none;
+        cursor: default;
+    }
+    .nav-link1 {
+        color: rgb(170, 210, 255);
+        font-size: 1.04rem;
+        &:hover{
+            color: rgb(170, 210, 255);   
+        }
+    }
+    .nav-link2 {
+        color: white;
+        font-size: 1.04rem;
+        &:hover{
+            color: rgb(170, 210, 255);   
+        }
+    }
+    .nav-link3 {
+        color: white;
+        font-size: 1.04rem;
+        &:hover{
+            color: rgb(170, 210, 255);   
+        }
+    }
+
+    .nav-link-my-logout{
+        padding-left: 25rem;
+        font-size: 0.95rem;
+        color:$main_color_orange;
+        &:hover{
+            color: rgb(206, 206, 206);   
+        }
+    }
+}
+.fa-bookmark{
+    font-size: 40px;
+    color: $main_color_blue;
+   
+   
+}
+.card-Btn-E{
+    margin:0px 40px 25px 95px;
+    background-color:$main-color-blue ;
+    color: white;
+    
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+    
+    width:  8rem;
+    height: 2.8rem;
+    font-weight: bold;
+    
+    line-height: 2em;
+
+}
+
+.card-Btn-E:hover {
+    color: $main-color-orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+  }
+
+.end_results{
+    margin-bottom: 150px;
+}

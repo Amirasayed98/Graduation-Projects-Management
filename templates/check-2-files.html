@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Check two files</title>
+    
+
+     <link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename = 'css/company-name-22.css')}}" rel="stylesheet">
+     <link href="{{url_for('static', filename = 'css/check -2-files.css')}}" rel="stylesheet">
+
+
+
+    
+  </head>
+  <body>
+
+    <!--start nav-->
+    <nav class="navbar ">
+      <div class="fixed-top nav-down">
+      <!-- logo -->
+      <div class="container-fluid row">
+          <a class="navbar-brand  col-lg-4 offset-lg-0 col-sm-12 offset-sm-6" href="Home.html">
+              <img src="{{url_for('static', filename="image/orange-logo.png")}}"   class="my-logo d-inline-block align-top" alt="my-logo">
+            </a>
+
+      <!-- links -->
+      <div class="col-lg-7 d-none d-lg-block d-xl-block ">
+        <ul class="  nav   links ">
+          <li class="nav-item ">
+            <a class="nav-link notactive" href="Home.html">HOME</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link notactive" href="access code.html">GRADUATION PROJECT</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link notactive" href="company.html">COMPANY</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link notactive" href="company requirements.html" tabindex="-1" aria-disabled="true">COMPANY REQUIREMENTS</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </div>
+    </nav>
+    <!--small-nav  -->
+    <div class="pos-f-t d-lg-none d-xl-none ">
+
+      <nav class="navbar navbar-dark   ">
+
+          <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      </nav>
+      <div class="collapse " id="navbarToggleExternalContent" >
+        <div class=" small-links p-4">
+          <ul >
+            <li class="d-block ">
+              <a class="notactive" href="Home.html">HOME</a>
+            </li>
+            <li class=" d-block">
+              <a class="notactive " href="access code.html">GRADUATION PROJECT</a>
+            </li>
+            <li class=" d-block">
+              <a class="notactive " href="company.html">COMPANY</a>
+            </li>
+            <li class=" d-block">
+              <a class="notactive " href="company requirements.html" tabindex="-1" aria-disabled="true">COMPANY REQUIREMENTS</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+    <!--end nav-->
+
+
+<form action="http://127.0.0.1:5000/checktwo"  method="POST" enctype="multipart/form-data" >
+        <div class="container con-check ">
+
+            <h1 class="my-header">Check For Plagairism At Two Files  </h1>
+            <div class="row  ">
+              <div class="col "></div>
+              <p class="col-5  my-header-p  ">You can online Check for Plagiarism On your own files...</p>
+              <div class="col "></div>
+            </div>
+            <div class="row my-row">
+              <div class="col "></div>
+              <div class="col-5 card my-card-shadow" >
+                  <img src="{{url_for('static', filename="image/logo-main.PNG")}}"  class="card-img-top" alt="find image">
+                  <div class="card-body">
+                    <p class=" row card-text ">   Upload two files here to check for similarity Percentage...</p>
+                    
+                    <div class=" input-group  mb-3  ">
+                      <div class="custom-file">
+                        <input type="file" name="file1" class="custom-file-input" id="validatedCustomFile1" required multiple>
+                        <label class="custom-file-label" for="validatedCustomFile2">Choose first file...</label>
+
+                    </div>
+                  </div>
+                    <div class=" input-group mb-3  ">
+                    <div class="custom-file">
+                      <input type="file" name="file2" class="custom-file-input" id="validatedCustomFile2" required multiple >
+                      <label class="custom-file-label" for="validatedCustomFile2" >Choose second file...</label>
+                    </div>
+                    </div>
+                    <button type="submit" class="btn btn-check  row col-md-9 col-sm-7" >
+                        Check Plagiarism
+                      </button>
+                   
+                      
+               
+
+                  </div>
+              </div>
+              <div class="col "></div>
+            </div>
+
+        </div>
+
+</form>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+ <script src="{{url_for('static', filename="js/jquery-3.4.1.min.js") }}"></script>
+  <script src="{{url_for('static', filename="js/popper.min.js")}}"></script>
+  <script src="{{url_for('static', filename="js/bootstrap.min.js")}}"></script>
+  <script src="{{url_for('static', filename="bs-custom-file-input-master\dist\bs-custom-file-input.js")}}"></script>
+
+<script>
+
+    bsCustomFileInput.init()
+
+
+
+</script>
+
+  </body>
+</html>

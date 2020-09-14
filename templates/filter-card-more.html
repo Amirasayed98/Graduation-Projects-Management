@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>project name</title>
+    
+<link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{url_for('static', filename = 'css/project_name.css')}}" rel="stylesheet">
+
+    
+    
+</head>
+<body>
+
+<nav class="navbar ">
+      <div class="fixed-top nav-down">
+      <!-- logo -->
+      <div class="container-fluid row">
+          <a class="navbar-brand  col-lg-4 offset-lg-0 col-sm-12 offset-sm-6" >
+              <img src="{{url_for('static', filename="image/orange-logo.png")}}"  class="my-logo d-inline-block align-top" alt="my-logo">
+            </a>
+      
+      <!-- links -->
+           
+      </div>
+    </div>
+    </nav>
+    <!-- data -->
+    <div class="container require_head">
+        <h4 class="project">Project Name:  <span id="project-name">{{ proname }}</span></h4>
+        <p class="track"> <span id="cs">{{ department }}</span> </p>
+    
+
+    <div class=" ">
+        <h3 class="h_body" id="tracks_text"><span id="tools"> Project ID : </span> <span id="project-id">{{ ip }}</span></h3>
+        <h3 class="h_body" id="tools_text"><span id="tools"> Doctor name : </span> <span id="doctor-name">{{ doctor }}</span></h3>
+         <p class="h_body" id=""><span id="tools"> Description : </span><span id="description"> {{ description }} </span> </p>
+            <h3 class="h_body" id="tools_text"><span id="tools"> Teamleader :</span><span id="teamleader"> {{ leadername}}</span></h3>
+            <h3 class="h_body" id="tools_text"><span id="tools"> Team Members :</span> <span id="eeam-members">{{ teamname}}</span></h3>
+            <h3 class="h_body" id="tools_text"><span id="tools"> E-Mail :</span> <span id="e-mail"> {{ leaderemail}}</span></h3>
+
+            <a href="{{ url_for('.download_file') }}" download="pdf">
+                 <button type="button" class="btn btn-outline-secondary search" >Download Documentation</button>
+            </a>
+
+
+        </div>
+</div>
+
+ <!-- docs -->
+
+
+
+<form action="http://127.0.0.1:5000/check" method="POST" >
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active container" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                <div data-spy="scroll" data-target="#nav-home-tab" data-offset="0" class="scrollspy-example">
+
+
+        <div class="container-fluid div-max">
+            
+            <p class="Choose-p">Choose a maximum number of files to compare with</p>
+
+
+            <input type="number" id="quantity" name="quantity" min="1" max="{{ num }}" value="1">
+
+            <button type="submit" name="check" class="btn  shadow-lg check-plagiarism" > Check Plagiarism </button>
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+</form>
+
+
+
+
+<script src="{{url_for('static', filename="js/jquery-3.4.1.min.js") }}"></script>
+<script src="{{url_for('static', filename="js/popper.min.js")}}"></script>
+<script src="{{url_for('static', filename="js/bootstrap.min.js")}}"></script>
+
+
+</body>
+</html>

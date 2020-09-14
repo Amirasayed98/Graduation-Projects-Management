@@ -1,0 +1,342 @@
+@import url("add tracks.css");
+
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+
+.main {
+    border: 2px solid $main_color_blue;
+    border-radius: 5px;
+    margin: 150px 0px 200px 100px;
+   
+    width: 1150px;
+    height: auto;
+}
+
+.require_head{
+
+    width: 100%;
+    height: 120px;
+    margin: 0px 50px 0px 0px;
+    border-top: solid 1px rgb(141, 140, 140);
+    border-bottom: solid 1px rgb(141, 140, 140);
+    h4{
+        margin-left: 30px;
+         line-height: 4em;
+         color: rgb(92, 92, 92);
+         font-size: 30px;
+     }
+}
+.require_body{
+    margin: 40px 40px 43px 40px;
+   
+}
+a{
+    cursor: pointer;
+}
+.tracks{
+   margin-left: 0px;
+    line-height: 4em;
+    color: rgb(158, 156, 156);
+    font-size: 33px;
+    display: inline-block;
+    font-weight: normal;
+}
+hr{
+    margin-bottom: 40px;
+    color: black;
+}
+#list_track li ,#list_tool li{
+    text-decoration: none;
+    color: grey;
+    font-weight: normal;
+    font-size: 33px;
+   
+    
+}
+#list_remove li a ,#list_remove2 li a{
+    color: rgb(158, 156, 156) ;
+    text-decoration: none;
+    font-size: 30px;
+    
+    
+}
+#list_remove li a:hover ,#list_remove2 li a:hover{
+    color: $main_color_blue;
+}
+#list_track ,#list_tool{
+    display: inline-block;
+    list-style: none;
+    padding-left: 0px;
+}
+#list_remove ,#list_remove2{
+    display: inline-block;
+    list-style: none;
+}
+.add_tracks{
+    display: inline-block;
+    color:$main_color_blue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 717px;
+    &:hover{
+        color:  rgb(92, 92, 92);
+        text-decoration: none;
+        .fa-plus-circle{
+                color:  rgb(92, 92, 92);
+            }
+    }
+    
+    
+}
+.add_tools{
+    display: inline-block;
+    color: $main_color_blue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 334px;
+    &:hover{
+        color:  rgb(92, 92, 92);
+        text-decoration: none;
+        .fa-plus-circle{
+                color:  rgb(92, 92, 92);
+            }
+    }
+    
+}
+.add_description{
+    display: inline-block;
+    color:$main_color_blue;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 407px;
+    &:hover{
+        color:  rgb(92, 92, 92);
+        text-decoration: none;
+        .fa-plus-circle{
+                color:  rgb(92, 92, 92);
+            }
+    }
+    
+}
+.remove{
+    color: rgb(158, 156, 156) ;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-left: 843px;
+    
+}
+.remove:hover,.remove_description:hover{
+    color: $main_color_blue;
+    text-decoration: none;
+}
+.remove_description{
+    color: rgb(158, 156, 156) ;
+    text-decoration: none;
+    font-size: 30px;
+    display: inline-block;
+    margin-left:960px ;
+    
+}
+.btn{
+    margin-top: 40px;
+    width: 120px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.back{
+    border: solid 2px $main_color_blue;
+    color: $main_color_blue;
+    margin-left: 200px;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+}
+.back:hover{
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+    color: $main_color_orange;
+    background-color: $main_color_blue;
+    border: solid 2px $main_color_blue;
+}
+.save{
+    border: solid 2px $main_color_blue;
+    background-color: $main_color_blue;
+    color: white;
+    margin-left: 450px;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+}
+.save:hover{
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+    color: $main_color_orange;
+    background-color: $main_color_blue;
+    border: solid 2px $main_color_blue;
+
+}
+.d1 p{
+    color: rgb(44, 43, 43);
+    margin-top: 30px;
+    font-size: 33px;
+    display: inline-block;
+    
+}
+
+@media(max-width:992px){
+    .main{
+        width: 710px;
+        margin-left: 50px;
+    }
+    .add_tracks{
+        margin-left: 280px;
+    }
+    .remove{
+        margin-left: 400px;
+    }
+    #tools {
+        margin-left: 60px;
+       margin-top: 10px;
+    }
+    .add_tools{
+        margin-left: 190px;
+    }
+    #short_desc{
+        margin-left: 140px;
+        margin-top: 10px;
+    }
+    .add_description{
+        margin-left: 145px;
+    }
+    .d1{
+        font-size: 30px;
+    }
+    .remove_description{
+        margin-left: 510px;
+    }
+    .back{
+        margin-left: 30px;
+    }
+    .save{
+        margin-left: 370px;
+    }
+
+  }
+
+  @media(max-width:768px){
+    .main{
+        width: 500px;
+    }
+    .add_tracks,.add_tools{
+        margin-left:88px ;
+    }
+    
+    .add_description{
+        margin-left:50px ;
+    }
+    .tracks{
+       
+        margin-left: 160px;
+    }
+    #tools{
+       
+        margin-left: 0px;
+        text-align: center;
+    }
+    #short_desc{
+        margin-left: 40px;
+        text-align: center;
+    }
+    .remove{
+        margin-left: 195px;
+    }
+    
+    hr{
+        margin-left: 0px;
+    }
+    .d1 p{
+        
+        text-align: center;
+    }
+    .remove_description{
+        margin-left: 158px;
+    }
+    .back{
+        margin-left: 10px;
+    }
+    .save{
+        margin-left: 200px;
+    }
+    
+  }
+
+  @media(max-width:576px){
+    .main{
+        width: 300px;
+    } 
+    .require_head h4 {
+        margin-left: 10px;
+         line-height: 4em;
+         font-size: 20px;
+    }
+    .require_head{
+        height: 90px;
+    }
+    .require_body{
+        margin-left: 23px;
+       
+    }
+    .tracks {
+        font-size: 20px;
+        margin-left: 75px;
+        text-align: center;
+
+    }
+    #tools{
+       
+        margin-left: 18px;
+        text-align: center;
+    }
+    #short_desc{
+        margin-left: 20px;
+        text-align: center;
+    }
+    .add_tracks{
+        margin-left: 18px;
+        font-size: 25px;
+
+    }
+    .add_tools{
+        margin-left: 25px;
+        font-size: 25px;
+        
+    }
+    .add_description{
+        margin-left: 9px;
+        font-size: 21px;
+        
+    }
+    .d1 h3{
+        padding-left: 5px;
+    }
+    
+    
+    hr{
+        width: 310px;
+        margin-left: 0px;
+    }
+    .remove{
+        margin-left: 140px;
+    }
+    .back{
+        margin-left: 0px;
+        margin-top: 22px;
+    }
+    .save{
+        margin-left: 20px;
+        margin-top: 22px;
+    }
+    .d1 p{
+        font-size: 20px;
+        text-align: center;
+    }
+    .remove_description{
+        margin-left: 70px;
+    }
+  }

@@ -1,0 +1,70 @@
+@import url("style.css");
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+.my-logo{
+    width: 80px;
+    height: 39px; 
+ }
+h1,p{
+    text-align: center;
+    margin-top: $margin;
+}
+h1{
+    color: rgb(88, 209, 143);
+    font-size: 80px;
+}
+p{
+    color: rgb(61, 59, 59);
+    font-size: 49.5px;
+    margin: 0px $margin 0px $margin;
+}
+.about{
+    background-color: $main_color_blue;
+    margin-top: 100PX;
+    color: lightgrey;
+    height: 200px;
+    padding-top: 20px;
+    font-weight: lighter;
+   
+}
+.foot{
+    margin-left: 60px;
+}
+.us{
+    margin-left: 0px;
+    margin-bottom: 23px;
+    color: rgb(170, 168, 168);
+    
+}
+.contact{
+    margin-left: 0px;
+    margin-right: 0px;
+    font-size: 23px;
+    font-weight: normal;
+}
+.logo{
+    width: 100px;
+    margin-top: 31px;
+   
+}
+h5{
+    margin-left: 70px;
+    margin-top: 20px;
+}
+.alert{
+    margin-bottom: 300px;
+}
+@media(max-width:768px){
+    .alert p{
+        font-size: 45px;
+        margin: 0px 40px 0px 40px;
+    }
+}
+@media(max-width:576px){
+    .alert p{
+        font-size: 35px;
+        margin: 0px 40px 0px 40px;
+    }
+  
+}

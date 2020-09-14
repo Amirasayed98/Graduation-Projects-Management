@@ -1,0 +1,113 @@
+
+/*.my-nav{
+    
+background-color: #5282b3;
+
+}*/
+
+/*.xxx{
+    overflow:hidden;
+background-color: #5282b3d1;
+    }*/
+
+ /*for logo*/
+.my-ch{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   color: #efcb70;
+   font-weight: 600;
+
+}
+.my-ecker{
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+}
+.my-logo{
+font-family: 'Abel', sans-serif;
+    letter-spacing: 1.5px;  
+}
+
+.card-img-top{
+    width: 200px;
+    margin-left: 120px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+/*header-text*/
+.my-header{
+    overflow:hidden;
+    margin-top: 70px;
+    color: rgb(43, 45, 56);
+        text-align: center;
+    }
+.my-header-p{
+    overflow:hidden;
+    margin-top: 20px;
+        color: rgb(96, 101, 123);
+        
+        text-align: center;
+    }
+
+
+/*card*/
+.my-row{
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+/*.my-btn {
+    color: #fff;
+    background-color: #5282b3l;
+    border-color: #f8f7f4;
+    border-radius: 100px;
+    padding-left: 0px;
+
+}*/
+.my-card-shadow{
+box-shadow: 0 19px 40px rgba(125, 127, 131, 0.2);
+border: 2px solid#00244D;
+}
+.card-text{
+    color: grey;
+}
+.btn-check {
+    background-color: #00244D;
+    color: white;
+    padding: 14px 70px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 8px 50px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+    width: 100%;
+  }  
+
+  .btn-check:hover {
+    
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+    color: #ffbb56;
+  }
+
+  @media(max-width:992px){
+
+  }
+  @media(max-width:768px){
+    
+
+  }
+  @media(max-width:576px){
+    .btn-check{
+        width: 100%;
+        height: 40px;
+        font-size: 13px;
+        padding: 5px 5px;
+        margin-left: 0px;
+    }
+    .card-img-top{
+        width: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+
+  }

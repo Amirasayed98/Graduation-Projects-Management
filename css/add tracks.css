@@ -1,0 +1,42 @@
+.input-icon i {
+  position: absolute;
+}
+
+.fa-search {
+  margin: 10px 10px 10px 10px;
+}
+
+.input {
+  padding-left: 32px;
+  width: 100%;
+}
+
+.list li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #c9c4c4;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+}
+
+.add {
+  background-color: #00244D;
+  color: white;
+  width: 100px;
+  font-weight: bold;
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 36, 77, 0.075) !important;
+          box-shadow: 0 0.5rem 1rem rgba(0, 36, 77, 0.075) !important;
+}
+
+.add:hover {
+  color: #ffbb56;
+  -webkit-box-shadow: 0 0.5rem 1rem #ffbb56a1 !important;
+          box-shadow: 0 0.5rem 1rem #ffbb56a1 !important;
+}
+
+.short {
+  margin: 10px 0px 0px 10px;
+}
+/*# sourceMappingURL=add tracks.css.map */

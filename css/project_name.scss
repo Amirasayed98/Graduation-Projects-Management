@@ -1,0 +1,299 @@
+@import url("style.css");
+$main_color_blue : #00244D;
+$main_color_orange:#ffbb56;
+$margin:80px;
+
+body{
+    margin-bottom: 100px;
+}
+nav {
+    height: 60px;
+}
+.container{
+    padding-top: 50px;
+}
+.dropbtn{
+    width: 370px;
+    border: solid 2px $main_color_blue;
+    color: $main_color_blue;
+    font-size: 20px;
+    
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+    border-radius: 0px;
+    margin-right: 0px;
+}
+.dropbtn:hover{
+    border:solid 2px $main_color_orange;
+    color:$main_color_blue;
+    background-color: white;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+}
+.label-12{
+    font-size: 23px;
+    color: $main_color_blue;
+    font-weight: bold;
+}
+.tr-head{
+    background-color: rgba(0, 36, 77, 0.925);
+    color: white;
+}
+.tr-body{
+
+    background-color: #ffbb562d;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 318px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-item:hover {background-color: #ddd;}
+  .show {display: block;}
+  #department{
+      margin-left: 335px;
+  }
+  #projectID{
+      margin-left: 655px;
+  }
+  
+.search{
+    width: 360px;
+    height: 44px;
+    background-color: $main_color_blue;
+    border:solid 2px $main_color_blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+    margin-top: 42px;
+    margin-left: 1.0px;
+}
+.search:hover{
+    background-color: $main_color_blue;
+    border:solid 2px $main_color_blue;
+    color: $main_color_orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+}
+.cont {
+    border: 2px solid $main_color_blue;
+    border-radius: 5px;
+    margin: 80px 0px 0px 105px;
+    height: auto;
+}
+.project{
+    font-size: 40px;
+    font-weight:400;
+    margin-top: 0px;
+}
+.track{
+    color: rgb(158, 156, 156);
+    font-size: 20px; 
+}
+.h_body{
+    color: rgb(41, 40, 40);
+    font-size: 28px;
+    font-weight: 350;
+    #tools{
+        font-size: 28px;
+        font-weight: 500;  
+    }
+}
+
+.par{
+    font-size: 28px;
+    font-weight: 450;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: nowrap;
+}
+.more{
+    width: 140px;
+    height: 45px;
+    font-weight: bold;
+    margin: 20px 0px 30px  935px;
+    background-color: white;
+    border:solid 3px $main_color_blue ;
+    color: $main_color_blue;
+    line-height: 2em;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+}
+.more:hover{
+    background-color: $main_color_blue;
+    border:solid 2px $main_color_blue;
+    color: $main_color_orange;
+    box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+}
+.more2{
+    background-color: white;
+    border:solid 3px $main_color_blue ;
+    color: $main_color_blue;
+    line-height: 1.5em;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+    &:hover{
+        background-color: $main_color_blue;
+        border:solid 3px $main_color_blue;
+        color: $main_color_orange;
+        box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+    }
+}
+.require_body{
+    margin-left: 13px;
+}
+.div-max{
+    padding: 50px;
+    margin-top: 30px;
+    border:solid 1px $main_color_blue;
+    
+    background-color:rgba(0, 36, 77, 0.041) ;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.13)!important;
+
+    text-align: center;
+    .Choose-p{
+        
+        color:$main_color_blue;
+        font-size: 40px;
+        margin-bottom: 50px;
+        border-bottom:solid 2px rgba(0, 36, 77, 0.13);
+        }
+        #quantity{
+        padding-left: 10px;
+        height: 45px;
+        width: 100px; 
+        font-size: 20px;
+        font-weight: bold;
+        border:solid 2px $main_color_blue;
+        color: $main_color_blue;
+        border-radius: .25rem;
+        box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+        margin-top: 0px;
+            margin-bottom: 0px;
+        &:hover{
+        box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+        }
+        }
+        .check-plagiarism{
+            width: 300px;
+            height: 50px;
+            font-weight: bold;
+            background-color: $main_color_blue;
+            border:solid 2px $main_color_blue ;
+            color: white;
+            line-height: 2em;
+            box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.075)!important;
+            margin-left: 355px;
+            margin-top: 50px;
+            display: block;
+           &:hover{
+            background-color: $main_color_blue;
+            border:solid 2px $main_color_blue;
+            color: $main_color_orange;
+            box-shadow: 0 .5rem 1rem #ffbb56a1!important;
+                }  
+        }
+}
+.textarea-doc{
+    width: 100%;
+    padding: 50px;
+    border:solid 1px $main_color_blue;
+    box-shadow: 0 .5rem 1rem rgba(0, 36, 77, 0.13)!important;
+}
+
+@media(max-width:992px){
+    .dropbtn{
+        width: 195px;
+        
+    }
+    .dropdown-menu{
+        min-width: 195px;
+    }
+    #department{
+        margin-left: 209px;
+    }
+    #projectID{
+        margin-left: 403px;
+    }
+    .search{
+        width: 100px;
+    }
+    .cont{
+        margin-left: 58px;
+        width: 685px;
+    }
+    .more{
+        margin-left: 480px;
+    }
+
+}
+@media(max-width:768px){
+    .dropdown{
+        margin-left: 10px;
+    }
+    .dropbtn{
+        width: 150px;
+        font-size: 15px;
+    }
+    .dropdown-menu{
+        min-width: 150px;
+    }
+    #department{
+        margin-left: 174.3px;
+    }
+    #projectID{
+        margin-left: 323.5px;
+    }
+    .search{
+        width: 54px;
+        font-size: 14px;
+        padding-left: 4px;
+    }
+    .cont{
+        margin-left: 50px;
+        width: 500px;
+    }
+    .more{
+        margin-left: 300px;
+    }
+}
+@media(max-width:576px){
+    .dropbtn{
+        width: 135px;
+        font-size: 15px;
+    }
+    .dropdown-menu{
+        min-width: 135px;
+    }
+    #department{
+        margin-left: 150px;
+    }
+    #projectID{
+        margin-left: 284px;
+    }
+    .search{
+        width: 50px;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+   .cont{
+    margin-left: 40px;
+    width: 400px;
+    }
+    .more{
+        margin-left: 100px;
+    }
+
+}

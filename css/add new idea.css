@@ -1,0 +1,15 @@
+#input_tracks, #input_tool {
+  padding-left: 32px;
+  width: 100%;
+}
+
+#list_tracks li, #list_tool li {
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #c9c4c4;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+}
+/*# sourceMappingURL=add new idea.css.map */

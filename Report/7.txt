@@ -1,0 +1,9 @@
+PLAGIARISM REPORT
+Project Name: vr
+The Percentage Of Plagiarism is = 100%
+File Name: 7.pdf
+Matched with: C:/xampp/htdocs/xampp/project-version9/output\7.txt
+Date: 08/19/20
+Number of sentences quoted = 1 
+
+
